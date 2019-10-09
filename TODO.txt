@@ -1,0 +1,27 @@
+--------------------------------------
+ToDo
+--------------------------------------
+
+Add "Day of week"
+    I can use "CD22_2000" -> \Archivos\BULLO\PROGS_C
+
+Also want to use a more lifelike NixiePixie image.
+    This actually requires a bit of image manipulation from what I currently have.
+
+--------------------------------------
+man 2 time
+--------------------------------------
+
+NAME
+	time - get time in seconds
+SYNOPSIS
+	#include <time.h>
+	time_t time(time_t *t);
+DESCRIPTION
+	time() returns the time as the number of seconds since the Epoch, 1970-01-01 00:00:00 +0000 (UTC).
+	If t is non-NULL, the return value is also stored in the memory pointed to by t.
+RETURN VALUE
+	On success, the value of time in seconds since the Epoch is returned.  On error, ((time_t) -1) is returned, and errno is set appropriately.
+
+Another possible library
+    man 3 ctime
